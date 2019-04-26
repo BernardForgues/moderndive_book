@@ -506,7 +506,7 @@ flights <- flights %>%
 
 Let's take a look at only the `dep_delay`, `arr_delay`, and the resulting `gain` variables for the first 5 rows in our updated `flights` data frame:
 
-```{r, echo=FALSE}
+```{r}
 flights %>% 
   select(dep_delay, arr_delay, gain) %>% 
   slice(1:5)
